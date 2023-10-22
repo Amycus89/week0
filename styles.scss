@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  // Set first child
+  h2:first-child,
+  h2:nth-child(4) {
+    color: #4285f4;
+  }
+  // Set second child
+  h2:nth-child(2),
+  h2:last-child {
+    color: #ea4335;
+  }
+  // Set third child
+  h2:nth-child(3) {
+    color: #fbbc05;
+  }
+  // Set fourth child
+  h2:nth-child(5) {
+    color: #34a853;
+  }
+}

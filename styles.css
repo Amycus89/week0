@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+}
+.title h2:first-child,
+.title h2:nth-child(4) {
+  color: #4285f4;
+}
+.title h2:nth-child(2),
+.title h2:last-child {
+  color: #ea4335;
+}
+.title h2:nth-child(3) {
+  color: #fbbc05;
+}
+.title h2:nth-child(5) {
+  color: #34a853;
+}
+
+/*# sourceMappingURL=styles.css.map */
