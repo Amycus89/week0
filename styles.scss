@@ -1,3 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #d4d4d4;
+
+  div {
+    margin: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -36,4 +74,38 @@ main {
   h2:nth-child(5) {
     color: #34a853;
   }
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+}
+
+.search-bar {
+  border: 1px solid #dfe1e5;
+  border-radius: 999px;
+  width: 40vw;
+  height: 40px;
+
+  input {
+    outline: none;
+    width: 90%;
+    height: 25px;
+    border: transparent;
+    font-size: 16px;
+  }
+}
+
+// CSS selector based on type, submit
+input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
 }
