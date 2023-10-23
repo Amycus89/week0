@@ -6,11 +6,16 @@ main {
   flex-direction: column;
 }
 
+@font-face {
+  font-family: ProductSans;
+  src: url("./fonts/ProductSansRegular.ttf");
+}
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 42px;
+  font-size: 64px;
+  font-family: ProductSans, sans-serif;
 }
 .title h2:first-child,
 .title h2:nth-child(4) {
@@ -19,6 +24,7 @@ main {
 .title h2:nth-child(2),
 .title h2:last-child {
   color: #ea4335;
+  transform: rotate(-25deg);
 }
 .title h2:nth-child(3) {
   color: #fbbc05;

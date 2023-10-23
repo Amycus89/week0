@@ -5,12 +5,18 @@ main {
   height: 100vh;
   flex-direction: column;
 }
+// https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/
+@font-face {
+  font-family: ProductSans;
+  src: url("./fonts/ProductSansRegular.ttf");
+}
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 42px;
+  font-size: 64px;
+  font-family: ProductSans, sans-serif;
   // Set first child
   h2:first-child,
   h2:nth-child(4) {
@@ -20,6 +26,7 @@ main {
   h2:nth-child(2),
   h2:last-child {
     color: #ea4335;
+    transform: rotate(-25deg);
   }
   // Set third child
   h2:nth-child(3) {
