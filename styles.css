@@ -47,6 +47,7 @@ main {
   src: url("./fonts/ProductSansRegular.ttf");
 }
 .title {
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +89,6 @@ main {
 input[type=submit] {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  width: 120px;
   height: 40px;
   border-radius: 4px;
   cursor: pointer;
@@ -133,7 +133,6 @@ input[type=submit] {
 .blue-button .advanced-button {
   background-color: #3f83f1;
   color: white;
-  width: 140px;
 }
 
 .center {
@@ -141,6 +140,7 @@ input[type=submit] {
   justify-content: center;
   align-items: center;
   margin: 15px;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
